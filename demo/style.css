@@ -1,0 +1,19 @@
+.fd-autocomplete {
+  position: relative;
+}
+
+.fd-suggestions {
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 1px #eee;
+  padding: 5px;
+}
+
+.fd-suggestion-item {
+  cursor: pointer;
+  padding: 3px;
+}
+
+.fd-suggestion-item:hover {
+  background: #eee;
+}

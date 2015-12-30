@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Auto complete</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script type="text/javascript" src="../src/hyphen-autocomplete.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body ng-app="demo">
+
+  <div ng-controller="demoCtrl">
+    <div class="fd-autocomplete">
+      <input type="text" items="data" ng-model="city" on-select="change()"
+        bind="id" label="name" fd-autocomplete />
+    </div>
+  </div>
+
+</body>
+
+</html>
